@@ -6,6 +6,7 @@ import { Brand, CTA, Navbar } from "./components";
 import "./App.css";
 
 function App() {
+  // eslint-disable-next-line
   const[name,setName] = useState("");
   return (
     <div className="App">
