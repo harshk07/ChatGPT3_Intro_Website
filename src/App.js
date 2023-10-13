@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from "./containers";
-import { Article, Brand, CTA, Feature, Navbar } from "./components";
+import { Brand, CTA, Navbar } from "./components";
 
 import "./App.css";
 
 function App() {
+  const[name,setName] = useState("");
   return (
     <div className="App">
       <div className="gradient__bg">
